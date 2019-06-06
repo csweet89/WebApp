@@ -1,0 +1,57 @@
+body {
+	overflow: scroll;
+	background-color: #B4C5E4;
+	margin: 0;
+	padding:0;
+}
+p {
+	padding:0px;
+	margin:0px;
+}
+div {
+	padding:0px;
+	margin:0px;
+}
+.wrapper {
+	max-width: 1440px;
+	margin: 0px auto;
+	background-color: white;
+	width: 90%;
+}
+.content {
+	margin:0px;
+	padding:20px;
+	flex: 0 0 800px;
+	font-family: 'Open Sans', sans-serif;
+	color: #3C3744;
+}
+.content p {
+	padding:2px;
+}
+.head {
+	background-color: #3C3744;
+	height:150px;
+}
+.head h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #FBFFF1;
+	height: 10%;
+	padding:50px;
+	margin:0px;
+}
+.lightbox {
+	
+}
+#image {
+	opacity:0;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	max-width: 100%;
+	height:auto;
+	max-height: 610px;
+	padding:10px;
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;     
+	transition: opacity 1s;
+}
